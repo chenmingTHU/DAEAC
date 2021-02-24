@@ -9,5 +9,5 @@ In this implementation, we use *.yaml* files for configuration. Run the follow c
 
 
 ```shell
-CUDA_VISIBLE_DEVICES=$1 python train.py --config=${YOUR_CONFIG_FILE.yaml}
+CUDA_VISIBLE_DEVICES=$1 python train.py --config=${CONFIG_FILE}
 ```
