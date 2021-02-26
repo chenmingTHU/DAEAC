@@ -5,11 +5,13 @@ This is an implementation of paper *Inter-patient ECG Arrhythmia Heartbeat Class
 
 ## Train & Test
 
-In this implementation, we use *.yaml* files for configuration. Run the follow codes for training and testing:
+In this implementation, we use *.yaml* files for configuration. Run the following codes for training and testing:
 
 
 ```shell
 CUDA_VISIBLE_DEVICES=$1 python train.py --config=${CONFIG_FILE}
+
+CUDA_VISIBLE_DEVICES=$1 python eval.py --config=${CONFIG_FILE}
 ```
 
 ## Data Preprocessing
